@@ -25,10 +25,10 @@ Sexy Django + python-telegram-bot + Celery + Redis + Postgres + Dokku + GitHub A
   * In order to edit or delete these commands you'll need to use `set_my_commands` bot's method just like in [tgbot.dispatcher.setup_my_commands](https://github.com/ohld/django-telegram-bot/blob/main/tgbot/dispatcher.py#L150-L156)
 
 Built-in Telegram bot methods:
-* `/broadcast` — send message to all users (admin command)
+* `/broadcast` — all yuzers send comand(admin command)
 * `/export_users` — bot sends you info about your users in .csv file (admin command)
-* `/stats` — show basic bot stats 
-* `/ask_for_location` — log user location when received and reverse geocode it to get country, city, etc.
+* `/stats` — bot ststus (admin command)
+* `/ask_for_location` — users lacation comand (Admin command)
 
 
 ## Content
